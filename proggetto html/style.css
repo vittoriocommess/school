@@ -1,0 +1,205 @@
+        body{
+            margin: 0px;
+        }
+        header {
+            background-color: #FFFFFF;
+            padding: 7px;
+            border-bottom: 1px solid rgb(200, 200, 200);
+            }
+        footer {
+            background-color: #FFFFFF;
+            border-top: 1px solid rgb(200, 200, 200);
+        }
+        .fixedtop {
+            z-index: 10;
+            position: -webkit-fixed;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .fixedbottom {
+            position: -webkit-fixed;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        button.compraOra{
+            border-radius: 0px;
+            background-color:rgb(255, 0, 0);
+            color:rgb(255, 255, 255);
+            border: 0px;
+            width: 25vw;
+            height: 6vh;
+            font-size: 2.5vw;
+        }
+        button.aggiungiAlCarrello{
+            border-radius: 0px;
+            background-color:rgb(0, 0, 0);
+            color:rgb(255, 255, 255);
+            border: 0px;
+            width: 25vw;
+            height: 6vh;
+            font-size: 2.5vw;
+        }
+
+
+
+
+
+
+
+
+
+        /*Introduction Section*/
+
+        div.title{
+            font-size: 4vw;
+            font-weight: bold;
+        }
+        div.absolute-backGlass {
+            position: absolute;
+            top: 10vh;
+            left: 6vw;
+        }
+        div.text-backGlass {
+            position: absolute;
+            top: 25vh;
+            right: 1vw;
+            font-size: 2vw;
+            width: 23vw;
+        }
+        div.absolute-backGlass2 {
+            display: none;
+        }
+
+
+
+
+        /*Charging Section*/
+
+        div.title2{
+            font-size: 3vh;
+        }
+        div.charging{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        div.text-charging{
+            margin-right:15vw;
+            font-size: 1.3vh;
+        }
+
+        div.triangolo {
+            position: absolute;
+            top: 45px;
+            right: 0;
+
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 100vh 105vw;
+            border-color: transparent transparent #4EDEEB transparent;
+
+        }
+        .relative {
+            position: relative;
+        } 
+        .absolute-neverSettle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            height: 100%;
+            font-size: 3,2vw;
+        }
+        
+
+
+        /*If Display Width*/
+        @media only screen and (max-width: 768px) {
+            div.absolute-backGlass2{
+                    display: block;
+                    position: absolute;
+                    top: 10vh;
+                    left: 4vw;
+            }
+            div.absolute-backGlass {
+                display: none;
+            }
+            div.title{
+                font-size: 7vw;
+                font-weight: bold;
+            }
+            div.text-backGlass {
+                position: absolute;
+                top: 25vh;
+                right: 1vw;
+                font-size: 3vw;
+            
+            }
+            
+        }
+
+
+
+
+        /*Cameras Sections*/
+        .section2{
+            background-color:#4EDEEB;
+            padding: 15vh 0 15vh 0;
+            width: 100%;
+        }
+        .section3{
+            background-color:#4EDEEB;
+            padding: 0 0 15vh 0;
+            width: 100%;
+        }
+
+        div.container-camera{
+            background-color: #FFFFFF;
+            width: 100%;
+        }
+        
+        div.miniTitle{
+            font-size: 3vw;
+        }
+
+        div.description{
+            font-size: 2vw;
+            color: #989898;
+            
+        }
+
+
+
+        /*Chip Section*/
+        div.chip{
+            background-color: #000000;
+            color: #FFFFFF;
+            font-size: 2vw;
+            width: 100%;
+            padding: 3vh 0 3vh 3vw;
+            
+        }
+
+        /*Information Section*/
+        div.information{
+            background-color: #154651;
+            width: 100%;
+            height: 40vh;
+            color: #000000;
+            padding: 3vh 0 3vh 4vw;
+        }
+
+        a:link {
+            color: #000000;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #000000;
+            background-color: transparent;
+            text-decoration: underline;
+        }
